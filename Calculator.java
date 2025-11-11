@@ -16,4 +16,11 @@ public class Calculator {
 
     // modulo method
     public int modulo(int a, int b) {return a % b;}
+
+    // main method beign added to Calculator Class
+    public static void main(String[] args) {
+        Calculator myCalculator = new Calculator();
+        System.out.println(myCalculator.add(5, 7));
+        System.out.println(myCalculator.subtract(7, 5);
+    }
 }
